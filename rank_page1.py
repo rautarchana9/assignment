@@ -46,7 +46,7 @@ def sort_page_list(page_value_list):
 
 
 def main():
-    """Get the webpage and query list from user"""
+    """ gets webpage and query requests from user until user enters a empty string"""
     input_list = []
     while True:
         line = raw_input(">")
